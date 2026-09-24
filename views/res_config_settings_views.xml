@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="res_config_settings_view_form_mandatory_indicator" model="ir.ui.view">
+        <field name="name">res.config.settings.view.form.mandatory.indicator</field>
+        <field name="model">res.config.settings</field>
+        <field name="priority" eval="90"/>
+        <field name="inherit_id" ref="base.res_config_settings_view_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//form//app[@name='general_settings']" position="inside">
+                <block title="Mandatory Fields Visual Indicator" name="mandatory_indicator_settings">
+                    <setting id="mandatory_indicator_style_setting" string="Mandatory Field Visual Style" help="Choose how required fields are highlighted across all forms before saving.">
+                        <field name="mandatory_indicator_style"/>
+                    </setting>
+                </block>
+            </xpath>
+        </field>
+    </record>
+</odoo>
