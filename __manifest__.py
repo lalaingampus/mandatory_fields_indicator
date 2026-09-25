@@ -15,7 +15,7 @@ Key Features:
 * Ultra-lightweight SCSS styling with zero database bloat.
 * Fully compatible with standard and custom modules across Odoo 16, 17, and 18.
 """,
-    "version": "17.0.1.0.0",
+    "version": "16.0.1.0.0",
     "category": "Extra Tools",
     "author": "Open Source Community",
     "license": "LGPL-3",
