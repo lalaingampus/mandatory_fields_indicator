@@ -1,0 +1,88 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* mandatory_fields_indicator
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-25 00:00+0000\n"
+"PO-Revision-Date: 2026-09-25 00:00+0000\n"
+"Last-Translator: CV. Anugerah Khair Arkananta <info@arkananta.id>\n"
+"Language-Team: Indonesian <info@arkananta.id>\n"
+"Language: id\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: mandatory_fields_indicator
+#: model_terms:ir.ui.view,arch_db:mandatory_fields_indicator.res_config_settings_view_form_mandatory_indicator
+msgid "Choose how required fields are highlighted across all forms before saving."
+msgstr "Pilih bagaimana field wajib diisi disorot pada seluruh formulir sebelum disimpan."
+
+#. module: mandatory_fields_indicator
+#: model:ir.model.fields,field_description:mandatory_fields_indicator.field_res_config_settings__mandatory_indicator_style
+#: model_terms:ir.ui.view,arch_db:mandatory_fields_indicator.res_config_settings_view_form_mandatory_indicator
+msgid "Mandatory Field Visual Style"
+msgstr "Gaya Visual Field Wajib (Mandatory)"
+
+#. module: mandatory_fields_indicator
+#: model_terms:ir.ui.view,arch_db:mandatory_fields_indicator.res_config_settings_view_form_mandatory_indicator
+msgid "Mandatory Fields Visual Indicator"
+msgstr "Indikator Visual Field Wajib (Mandatory Fields)"
+
+#. module: mandatory_fields_indicator
+#: model:ir.model.fields.selection,name:mandatory_fields_indicator.selection__res_config_settings__mandatory_indicator_style__left_accent
+msgid "Option 1: Modern Left-Accent Bar & Asterisk"
+msgstr "Opsi 1: Garis Aksen Kiri Modern & Asterisk"
+
+#. module: mandatory_fields_indicator
+#: model:ir.model.fields.selection,name:mandatory_fields_indicator.selection__res_config_settings__mandatory_indicator_style__soft_tint
+msgid "Option 2: Soft Dynamic Pastel Tint & Asterisk"
+msgstr "Opsi 2: Latar Pastel Lembut Dinamis & Asterisk"
+
+#. module: mandatory_fields_indicator
+#: model:ir.model.fields.selection,name:mandatory_fields_indicator.selection__res_config_settings__mandatory_indicator_style__badge
+msgid "Option 3: Explicit [Required] Badge Pill"
+msgstr "Opsi 3: Badge Pill Eksplisit [Required]"
+
+#. module: mandatory_fields_indicator
+#: model:ir.model.fields.selection,name:mandatory_fields_indicator.selection__res_config_settings__mandatory_indicator_style__gradient_glow
+msgid "Option 4: Cyber Indigo Gradient & Soft Glow (Ultra Modern)"
+msgstr "Opsi 4: Gradasi Cyber Indigo & Pendar Halus (Ultra Modern)"
+
+#. module: mandatory_fields_indicator
+#: model:ir.model.fields.selection,name:mandatory_fields_indicator.selection__res_config_settings__mandatory_indicator_style__pulse_dot
+msgid "Option 5: Coral Pulse Dot & Floating Tag (Linear / Notion Style)"
+msgstr "Opsi 5: Titik Berdenyut Coral & Tag Melayang (Gaya Linear / Notion)"
+
+#. module: mandatory_fields_indicator
+#: model:ir.model.fields.selection,name:mandatory_fields_indicator.selection__res_config_settings__mandatory_indicator_style__executive_gold
+msgid "Option 6: Executive Amber Gold Accent (Warm Luxury)"
+msgstr "Opsi 6: Aksen Executive Amber Gold (Warm Luxury)"
+
+#. module: mandatory_fields_indicator
+#: model:ir.model.fields.selection,name:mandatory_fields_indicator.selection__res_config_settings__mandatory_indicator_style__glassmorphism
+msgid "Option 7: Frosted Card Outline & Sapphire Glow (Apple Style)"
+msgstr "Opsi 7: Bingkai Frosted Glass & Pendar Safir (Gaya Apple)"
+
+#. module: mandatory_fields_indicator
+#: model:ir.model.fields.selection,name:mandatory_fields_indicator.selection__res_config_settings__mandatory_indicator_style__asterisk_only
+msgid "Option 8: Classic Red Asterisk Only"
+msgstr "Opsi 8: Hanya Tanda Bintang Merah Klasik"
+
+#. module: mandatory_fields_indicator
+#: model:ir.model.fields,help:mandatory_fields_indicator.field_res_config_settings__mandatory_indicator_style
+msgid "Select how mandatory/required fields are visually highlighted across the system."
+msgstr "Pilih bagaimana field wajib diisi diberi tanda visual di seluruh sistem."
+
+#. module: mandatory_fields_indicator
+#: model:ir.model,name:mandatory_fields_indicator.model_res_config_settings
+msgid "Config Settings"
+msgstr "Pengaturan Konfigurasi"
+
+#. module: mandatory_fields_indicator
+#: model:ir.model,name:mandatory_fields_indicator.model_ir_http
+msgid "HTTP Routing"
+msgstr "Routing HTTP"
