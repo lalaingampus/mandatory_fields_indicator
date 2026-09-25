@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="mandatory_fields_indicator/static/description/banner.gif" alt="Mandatory Fields Visual Indicator Banner" width="100%"/>
+<img src="static/description/banner.gif" alt="Mandatory Fields Visual Indicator Banner" width="100%"/>
 
 <br/><br/>
 
